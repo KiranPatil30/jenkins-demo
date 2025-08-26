@@ -5,11 +5,6 @@ pipeline {
         APP_ENV = 'dev'
     }
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/KiranPatil30/jenkins-demo.git'
-            }
-        }
         stage('Build') {
             steps {
                 echo 'Building the project...'
