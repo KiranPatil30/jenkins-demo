@@ -13,4 +13,7 @@ public class UtilityClass {
     public static int div(int x, int y) {
         return x / y;
     }
+    public static int sq(int x){
+            return x*x;
+    }
 }
